@@ -286,14 +286,14 @@ function displayPagination() {
 
   // Next page
   document.querySelector('#next').addEventListener('click', async () => {
-    global.search.page++
+    global.search.page++;
     const { results, total_pages } = await searchAPIData();
     displaySearchResults(results);
   });
 
   // Previous page
   document.querySelector('#prev').addEventListener('click', async () => {
-    global.search.page--
+    global.search.page--;
     const { results, total_pages } = await searchAPIData();
     displaySearchResults(results);
   })

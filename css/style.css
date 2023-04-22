@@ -238,9 +238,6 @@ section h2 {
   margin-top: 20px;
 }
 
-.details-bottom {
-}
-
 .details-bottom li {
   margin: 15px 0;
   padding-bottom: 8px;
@@ -259,6 +256,16 @@ section h2 {
   left: 0;
   z-index: -1;
   opacity: 0.1;
+}
+
+@media (max-width: 750px) {
+  .details-top {
+    flex-direction: column;
+  }
+  
+  .details-top img {
+    margin-right: 0;
+  }
 }
 
 /* Search */
