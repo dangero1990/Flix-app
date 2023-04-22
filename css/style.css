@@ -265,6 +265,7 @@ section h2 {
   
   .details-top img {
     margin-right: 0;
+    max-width: 100%;
   }
 }
 
